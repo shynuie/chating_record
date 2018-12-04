@@ -7,7 +7,6 @@ def read_file(x = 'filename'):
             line = line.strip()
             lines.append(line);
     return lines;
-    print(lines);
 def convert(lines):
     record = [];
     name = None;
