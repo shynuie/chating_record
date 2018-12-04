@@ -22,6 +22,8 @@ def write_file(x, y):
     with open(x, 'w', encoding = 'utf-8-sig') as output:
         for line in y:
             output.write(line + '\n');
-lines = read_file('input.txt');
-record = convert(lines);
-write_file('output.txt', record);
+def main():
+    lines = read_file('input.txt');
+    record = convert(lines);
+    write_file('output.txt', record);
+main()
